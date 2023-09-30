@@ -17,8 +17,7 @@ body{
     border: 1px solid gray;
     height: 60vh;
     margin-bottom: 10px;
-    overflow-y: hidden;
-    
+    overflow-y: auto;    
 }
 .msg{
     background-color: gray;
