@@ -7,20 +7,27 @@
     <script defer src = 'https://live-chat-hcc.glitch.me/socket.io/socket.io.js'></script>
     <script defer src ="js/Client.js"></script>
     <link rel = "stylesheet", href = "css/style.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="nav">
     <img src="chatlogo.png" class="logo" >
+    <h3 class="title">Welcome to CherishChat</h3>
     </nav>
     <div class="container">
-        
     </div>
     <div class="send">
         <form action="#" id="send-container">
             <input type="text" name="messageInp" id="messageInp">
             <button class = "button" type="submit">send</button>
         </form>
+        <!-- Add a file input to your chat interface -->
+        <input type="file" id="fileInput" />
+
+        <!-- Button to trigger file upload -->
+        <button onclick="uploadFile()">Share File</button>
+        <!-- Display shared resources in this container -->
+        
     </div>
 </body>
 </html>

@@ -6,6 +6,10 @@
     height: 50px;
     
 }
+.title{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
 body{
     background-image: linear-gradient(red,pink);
     height: 100vh;
